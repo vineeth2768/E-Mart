@@ -3,3 +3,7 @@ const icBgLoginImage = "assets/images/bg.png";
 const icFacebookLogo = "assets/icons/facebook_logo.png";
 const icGoogleLogo = "assets/icons/google_logo.png";
 const icTwitterLogo = "assets/icons/twitter_logo.png";
+const icHome = "assets/icons/home.png";
+const icCategories = "assets/icons/categories.png";
+const icCart = "assets/icons/cart.png";
+const icProfile = "assets/icons/profile.png";

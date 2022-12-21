@@ -7,7 +7,7 @@ const password = "Password";
 const passwordHint = "*******";
 const confirmPassword = "Confirm Password";
 const name = "Name";
-const nameHint = "Minshad Babu";
+const nameHint = "Farisha";
 const forgetPassword = "Forget password";
 const login = "Log in";
 const signup = "Sign Up";
@@ -21,4 +21,13 @@ const alreadyHaveAccount = "Already Have Account ? ";
 const home = "Home",
     categories = "Categories",
     cart = "Cart",
-    account = "Account";
+    profile = "Profile";
+
+//// home screen strings
+const searchanything = "Search Anything...";
+const todayDeal = "Today Deal";
+const flashSale = "FlashSale";
+const topSellers = "Top Sellers";
+const brand = "Brand";
+const topCategories = "Top Categories";
+const featurdCategories = "Featured Categories";

@@ -1,5 +1,9 @@
 import 'package:e_mart/consts/images.dart';
 import 'package:e_mart/consts/strings.dart';
+import 'package:e_mart/views/cart_screen/cart_screen.dart';
+import 'package:e_mart/views/category_screen/category_screen.dart';
+import 'package:e_mart/views/home_screen/home_screen.dart';
+import 'package:e_mart/views/profile_screen/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 const socialIconList = [
@@ -16,7 +20,7 @@ var navBarItem = [
         icHome,
         width: 25,
       ),
-      label: name),
+      label: home),
   BottomNavigationBarItem(
       icon: Image.asset(
         icCategories,
@@ -34,13 +38,21 @@ var navBarItem = [
         icProfile,
         width: 25,
       ),
-      label: account),
+      label: profile),
 ];
 
 /// NavBody
 var navBody = [
-  Container(color: Colors.blue),
-  Container(color: Colors.amber),
-  Container(color: Colors.purple),
-  Container(color: Colors.cyan),
+  const HomeScreen(),
+  const CategoryScreen(),
+  const CartScreen(),
+  const ProfileScreen()
+];
+
+//// Home screen swiper brand list banners
+var sliderList = [
+  imageSlider_1,
+  imageSlider_2,
+  imageSlider_3,
+  imageSlider_4,
 ];
